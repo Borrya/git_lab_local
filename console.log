@@ -356,38 +356,6 @@ no changes added to commit
 [test 75eadab] task 24
  1 file changed, 2 insertions(+), 1 deletion(-)
 Merge made by the 'ours' strategy.
-Deleted branch test-rebase (was 5481d4b).
-On branch test
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	modified:   F.txt
-	modified:   console.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-On branch test
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	modified:   console.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[test 19ce2d3] task 30.
- 1 file changed, 1 insertion(+)
-Unstaged changes after reset:
-M	console.log
-On branch test
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	modified:   console.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[test 858159f] 31
- 2 files changed, 31 insertions(+), 1 deletion(-)
 commit 19ce2d3fd52e3b2c5c22946eb8dd07888a20fe57
 Author: Borrya <dashbor00@mail.ru>
 Date:   Thu Sep 17 18:16:04 2020 +0300
@@ -524,158 +492,70 @@ Date:   Thu Sep 17 15:21:07 2020 +0300
 
     modify A.txt
 On branch test
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	modified:   F.txt
-	modified:   console.log
-
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   console.log
 
-[test a80ff38] 32.
- 2 files changed, 181 insertions(+), 1 deletion(-)
+no changes added to commit (use "git add" and/or "git commit -a")
+19ce2d3 HEAD@{0}: reset: moving to HEAD~1
+dc831c6 HEAD@{1}: commit: 33.
+19ce2d3 HEAD@{2}: reset: moving to HEAD~1
+a80ff38 HEAD@{3}: commit: 32.
+19ce2d3 HEAD@{4}: reset: moving to HEAD~1
+858159f HEAD@{5}: commit: 31
+19ce2d3 HEAD@{6}: commit: task 30.
+3a329da HEAD@{7}: checkout: moving from test-rebase to test
+5481d4b HEAD@{8}: rebase: updating HEAD
+57242c0 HEAD@{9}: commit: for rebase
+5eef63d HEAD@{10}: rebase: E.txt for 26.
+3a329da HEAD@{11}: rebase: checkout test
+5481d4b HEAD@{12}: commit: 26..
+548bdd3 HEAD@{13}: commit: E.txt for 26.
+9a756f0 HEAD@{14}: checkout: moving from test to test-rebase
+3a329da HEAD@{15}: commit: 26 D.txt
+9a756f0 HEAD@{16}: merge master: Merge made by the 'ours' strategy.
+83086a9 HEAD@{17}: checkout: moving from master to test
+d7ceea7 HEAD@{18}: commit: 24..
+a95a721 HEAD@{19}: commit: 24. for master
+9554084 HEAD@{20}: checkout: moving from test to master
+83086a9 HEAD@{21}: commit: 24
+75eadab HEAD@{22}: commit: task 24
+529fae3 HEAD@{23}: commit (merge): conflicts
+8ecdb8f HEAD@{24}: checkout: moving from test-oct-2 to test
+026b387 HEAD@{25}: commit: console.log
+cecfd00 HEAD@{26}: commit (amend): task 19
+9554084 HEAD@{27}: checkout: moving from master to test-oct-2
+9554084 HEAD@{28}: checkout: moving from test-oct-1 to master
+9554084 HEAD@{29}: checkout: moving from master to test-oct-1
+9554084 HEAD@{30}: checkout: moving from test to master
+8ecdb8f HEAD@{31}: commit (amend): task 22
+4f0e6c9 HEAD@{32}: commit: task 22
+33f4e04 HEAD@{33}: commit (merge): task 22
+9d1efa8 HEAD@{34}: commit: task 21
+957cc38 HEAD@{35}: checkout: moving from master to test
+9554084 HEAD@{36}: merge test-ff: Fast-forward
+2d44ca0 HEAD@{37}: checkout: moving from test-ff to master
+9554084 HEAD@{38}: commit: task 19
+2d44ca0 HEAD@{39}: checkout: moving from master to test-ff
+2d44ca0 HEAD@{40}: merge test: Merge made by the 'recursive' strategy.
+7c1a94d HEAD@{41}: commit: task 17
+083bb2c HEAD@{42}: checkout: moving from test to master
+957cc38 HEAD@{43}: commit: D.txt task 16
+d3f3424 HEAD@{44}: commit: C.txt task 16
+083bb2c HEAD@{45}: checkout: moving from master to test
+083bb2c HEAD@{46}: checkout: moving from test2 to master
+083bb2c HEAD@{47}: checkout: moving from master to test2
+083bb2c HEAD@{48}: checkout: moving from test1 to master
+083bb2c HEAD@{49}: checkout: moving from master to test1
+083bb2c HEAD@{50}: commit: task 11.
+12b7cd6 HEAD@{51}: commit: task 10.
+dc7c69a HEAD@{52}: commit: task 10.
+54e0e45 HEAD@{53}: commit (initial): modify A.txt
 Unstaged changes after reset:
 M	F.txt
 M	console.log
-commit 19ce2d3fd52e3b2c5c22946eb8dd07888a20fe57
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 18:16:04 2020 +0300
-
-    task 30.
-
-commit 3a329daadc53ffba579d6fa375dbd8dda8d172ac
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 17:42:29 2020 +0300
-
-    26 D.txt
-
-commit 9a756f0fe2ea109a587aaf9e8fd922d46fc3e15d
-Merge: 83086a9 d7ceea7
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 17:40:48 2020 +0300
-
-    Merge branch 'master' into test
-
-commit d7ceea74e7c065e3e674e92a7bafd9cb22b0e23d
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 17:40:18 2020 +0300
-
-    24..
-
-commit a95a721075050ddffc1806f2c6341e8c4d13acfc
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 17:39:55 2020 +0300
-
-    24. for master
-
-commit 83086a935eb35b68fd533487e4335e4c6dc37a7f
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 17:38:00 2020 +0300
-
-    24
-
-commit 75eadab20f9282e50cf23fa9dfb28ae2449498ae
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 17:25:17 2020 +0300
-
-    task 24
-
-commit 529fae344aac03171ea75bda6c64ee6e789106b7
-Merge: 8ecdb8f 026b387
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 17:12:37 2020 +0300
-
-    conflicts
-
-commit 026b38712b76e9d75fccefd58c7b6a8f6974c840
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 17:09:21 2020 +0300
-
-    console.log
-
-commit cecfd00a481e3ec4cb5c30d40e373aa76c75098b
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 16:07:28 2020 +0300
-
-    task 19
-
-commit 8ecdb8ff9ee7206c9348edf3a546dd03fddec743
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 16:23:59 2020 +0300
-
-    task 22
-
-commit 33f4e04c7cb7115c752dd77080a2c54f40579fbe
-Merge: 9d1efa8 9554084
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 16:17:03 2020 +0300
-
-    task 22
-
-commit 9d1efa8b2a76b0d7e2cd1cb045ea5cdbc6152bc5
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 16:13:21 2020 +0300
-
-    task 21
-
-commit 95540843b9603b4f98d697913915362e1a0a6350
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 16:07:28 2020 +0300
-
-    task 19
-
-commit 2d44ca04f662a228794d64148715fd1161715a5a
-Merge: 7c1a94d 957cc38
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 16:03:29 2020 +0300
-
-    Merge branch 'test'
-
-commit 7c1a94d235e100345ce50467a907404c8566f6b1
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 15:59:14 2020 +0300
-
-    task 17
-
-commit 957cc3844a8dea07d797bdb42eafb4fc6499c473
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 15:57:33 2020 +0300
-
-    D.txt task 16
-
-commit d3f34249630ec9d778fb8e3472a4a58c1d8cd906
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 15:57:12 2020 +0300
-
-    C.txt task 16
-
-commit 083bb2c8f7b1830214337170bd9aee977b2e1ef8
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 15:37:28 2020 +0300
-
-    task 11.
-
-commit 12b7cd6469edd9242a34497074ffedf41c79f7df
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 15:36:12 2020 +0300
-
-    task 10.
-
-commit dc7c69a57d93ad0096693dabba4c6e1e407eccde
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 15:35:26 2020 +0300
-
-    task 10.
-
-commit 54e0e45ad4ad62cca86b07af652f5a81d1a2cc24
-Author: Borrya <dashbor00@mail.ru>
-Date:   Thu Sep 17 15:21:07 2020 +0300
-
-    modify A.txt
 On branch test
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -685,3 +565,56 @@ Changes not staged for commit:
 	modified:   console.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+On branch test
+Changes not staged for commit:
+	modified:   F.txt
+	modified:   console.log
+
+no changes added to commit
+529fae34 (Borrya 2020-09-17 17:12:37 +0300 1) <<<<<<< HEAD
+529fae34 (Borrya 2020-09-17 17:12:37 +0300 2) task 22
+529fae34 (Borrya 2020-09-17 17:12:37 +0300 3) =======
+529fae34 (Borrya 2020-09-17 17:12:37 +0300 4) task 19.
+529fae34 (Borrya 2020-09-17 17:12:37 +0300 5) >>>>>>> test-oct-2
+On branch test
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   F.txt
+	modified:   console.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Z.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch test
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   F.txt
+	modified:   console.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+commit 19ce2d3fd52e3b2c5c22946eb8dd07888a20fe57
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 18:16:04 2020 +0300
+
+    task 30.
+
+diff --git a/F.txt b/F.txt
+index e69de29..463aac4 100644
+--- a/F.txt
++++ b/F.txt
+@@ -0,0 +1 @@
++task 30.
+\ No newline at end of file
+origin
+Branch 'test' set up to track remote branch 'test' from 'origin'.
+Branch 'test' set up to track remote branch 'test' from 'origin'.
+[test 7d0bbe9] 46 1
+ 4 files changed, 102 insertions(+), 170 deletions(-)
+ create mode 160000 git_lab_local
