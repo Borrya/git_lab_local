@@ -77,3 +77,259 @@ Untracked files:
 	console.log
 
 no changes added to commit
+commit 54e0e45ad4ad62cca86b07af652f5a81d1a2cc24
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:21:07 2020 +0300
+
+    modify A.txt
+commit 54e0e45ad4ad62cca86b07af652f5a81d1a2cc24
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:21:07 2020 +0300
+
+    modify A.txt
+
+diff --git a/A.txt b/A.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/B.txt b/B.txt
+new file mode 100644
+index 0000000..e69de29
+[master dc7c69a] task 10.
+ 2 files changed, 80 insertions(+)
+ create mode 100644 console.log
+[master 12b7cd6] task 10.
+ 1 file changed, 2 insertions(+)
+commit 12b7cd6469edd9242a34497074ffedf41c79f7df
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:36:12 2020 +0300
+
+    task 10.
+
+diff --git a/A.txt b/A.txt
+index e69de29..fcd96bc 100644
+--- a/A.txt
++++ b/A.txt
+@@ -0,0 +1,2 @@
++task 6.
++task 10.
+\ No newline at end of file
+
+commit dc7c69a57d93ad0096693dabba4c6e1e407eccde
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:35:26 2020 +0300
+
+    task 10.
+
+diff --git a/B.txt b/B.txt
+index e69de29..3862d5e 100644
+--- a/B.txt
++++ b/B.txt
+@@ -0,0 +1 @@
++task 10.
+\ No newline at end of file
+diff --git a/console.log b/console.log
+new file mode 100644
+index 0000000..5a5ac92
+--- /dev/null
++++ b/console.log
+@@ -0,0 +1,79 @@
++On branch master
++
++No commits yet
++
++Untracked files:
++  (use "git add <file>..." to include in what will be committed)
++
++	A.txt
++	console.log
++
++nothing added to commit but untracked files present (use "git add" to track)
++On branch master
++
++No commits yet
++
++Changes to be committed:
++  (use "git rm --cached <file>..." to unstage)
++
++	new file:   A.txt
++
++Untracked files:
++  (use "git add <file>..." to include in what will be committed)
++
++	console.log
++
++On branch master
++
++No commits yet
++
++Changes to be committed:
++  (use "git rm --cached <file>..." to unstage)
++
++	new file:   A.txt
++
++Changes not staged for commit:
++  (use "git add <file>..." to update what will be committed)
++  (use "git checkout -- <file>..." to discard changes in working directory)
++
++	modified:   A.txt
++
++Untracked files:
++  (use "git add <file>..." to include in what will be committed)
++
++	console.log
++
++On branch master
++
++No commits yet
++
++Changes to be committed:
++  (use "git rm --cached <file>..." to unstage)
++
++	new file:   A.txt
++	new file:   B.txt
++
++Changes not staged for commit:
++  (use "git add <file>..." to update what will be committed)
++  (use "git checkout -- <file>..." to discard changes in working directory)
++
++	modified:   A.txt
++
++Untracked files:
++  (use "git add <file>..." to include in what will be committed)
++
++	console
++	console.log
++
++[master (root-commit) 54e0e45] modify A.txt
++ 2 files changed, 0 insertions(+), 0 deletions(-)
++ create mode 100644 A.txt
++ create mode 100644 B.txt
++On branch master
++Changes not staged for commit:
++	modified:   A.txt
++
++Untracked files:
++	console.log
++
++no changes added to commit
+
+commit 54e0e45ad4ad62cca86b07af652f5a81d1a2cc24
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:21:07 2020 +0300
+
+    modify A.txt
+
+diff --git a/A.txt b/A.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/B.txt b/B.txt
+new file mode 100644
+index 0000000..e69de29
+rm 'A.txt'
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    A.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   console.log
+
+[master 083bb2c] task 11.
+ 1 file changed, 2 deletions(-)
+ delete mode 100644 A.txt
+* master
+  test1
+M	console.log
+  master
+* test1
+M	console.log
+M	console.log
+  master
+  test1
+* test2
+M	console.log
+Deleted branch test1 (was 083bb2c).
+Deleted branch test2 (was 083bb2c).
+M	console.log
+[test d3f3424] C.txt task 16
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 C.txt
+[test 957cc38] D.txt task 16
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 D.txt
+M	console.log
+[master 7c1a94d] task 17
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 E.txt
+ create mode 100644 F.txt
+Merge made by the 'recursive' strategy.
+ C.txt | 0
+ D.txt | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 C.txt
+ create mode 100644 D.txt
+commit 2d44ca04f662a228794d64148715fd1161715a5a
+Merge: 7c1a94d 957cc38
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 16:03:29 2020 +0300
+
+    Merge branch 'test'
+
+commit 7c1a94d235e100345ce50467a907404c8566f6b1
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:59:14 2020 +0300
+
+    task 17
+
+commit 957cc3844a8dea07d797bdb42eafb4fc6499c473
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:57:33 2020 +0300
+
+    D.txt task 16
+
+commit d3f34249630ec9d778fb8e3472a4a58c1d8cd906
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:57:12 2020 +0300
+
+    C.txt task 16
+
+commit 083bb2c8f7b1830214337170bd9aee977b2e1ef8
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:37:28 2020 +0300
+
+    task 11.
+
+commit 12b7cd6469edd9242a34497074ffedf41c79f7df
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:36:12 2020 +0300
+
+    task 10.
+
+commit dc7c69a57d93ad0096693dabba4c6e1e407eccde
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:35:26 2020 +0300
+
+    task 10.
+
+commit 54e0e45ad4ad62cca86b07af652f5a81d1a2cc24
+Author: Borrya <dashbor00@mail.ru>
+Date:   Thu Sep 17 15:21:07 2020 +0300
+
+    modify A.txt
+M	console.log
+[test-ff 9554084] task 19
+ 2 files changed, 1 insertion(+)
+ create mode 100644 G.txt
+M	console.log
+Updating 2d44ca0..9554084
+Fast-forward
+ C.txt | 1 +
+ G.txt | 0
+ 2 files changed, 1 insertion(+)
+ create mode 100644 G.txt
+Deleted branch test-ff (was 9554084).
+M	console.log
