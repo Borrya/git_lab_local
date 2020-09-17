@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 task 21.
+=======
+task 19.
+>>>>>>> master
+task 22.
