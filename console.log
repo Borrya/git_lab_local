@@ -77,3 +77,12 @@ Untracked files:
 	console.log
 
 no changes added to commit
+On branch test-oct-1
+nothing to commit, working tree clean
+M	console.log
+M	console.log
+On branch test-oct-2
+Changes not staged for commit:
+	modified:   console.log
+
+no changes added to commit
