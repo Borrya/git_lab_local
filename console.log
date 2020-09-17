@@ -1,0 +1,79 @@
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	A.txt
+	console.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   A.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	console.log
+
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   A.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   A.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	console.log
+
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   A.txt
+	new file:   B.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   A.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	console
+	console.log
+
+[master (root-commit) 54e0e45] modify A.txt
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 A.txt
+ create mode 100644 B.txt
+On branch master
+Changes not staged for commit:
+	modified:   A.txt
+
+Untracked files:
+	console.log
+
+no changes added to commit
