@@ -333,3 +333,11 @@ Fast-forward
  create mode 100644 G.txt
 Deleted branch test-ff (was 9554084).
 M	console.log
+[test 9d1efa8] task 21
+ 2 files changed, 257 insertions(+)
+Auto-merging C.txt
+CONFLICT (content): Merge conflict in C.txt
+Automatic merge failed; fix conflicts and then commit the result.
+[test 33f4e04] task 22
+[test 4f0e6c9] task 22
+ 1 file changed, 1 insertion(+), 6 deletions(-)
